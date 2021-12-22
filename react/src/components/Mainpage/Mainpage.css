@@ -1,0 +1,23 @@
+.videos{
+    margin-top: 100px;
+    display:flex;
+    gap: 10px;
+}
+.carousel{
+    margin-top: 100px;
+}
+@media only screen and (max-width: 900px) {
+    .videos {
+      display:grid;
+      background-color: lightcyan;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .carousel {
+      display: none;
+    }
+}
+.allContent{
+  background: linear-gradient(to right , #00AAFF , #00ff6c);
+}
